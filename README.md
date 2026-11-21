@@ -144,11 +144,12 @@ GitHub: https://github.com/Alostoura-Official
 </p>
 ```
 
+
 <div align="center">
 
   <a href="https://alostoura-official.github.io/ALOSTOURA-Typing-SVG/" target="_blank" rel="noopener noreferrer">
     <img
-      src="https://api.microlink.io/?url=https%3A%2F%2Falostoura-official.github.io%2FALOSTOURA-Typing-SVG%2F& screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=8000"
+      src="https://api.microlink.io/?url=https%3A%2F%2Falostoura-official.github.io%2FALOSTOURA-Typing-SVG%2F&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=8000"
       width="600"
       alt="ALOSTOURA Typing SVG Live Preview"
     />
@@ -157,11 +158,14 @@ GitHub: https://github.com/Alostoura-Official
   <p>
     <a href="https://alostoura-official.github.io/ALOSTOURA-Typing-SVG/" target="_blank" rel="noopener noreferrer">
       <img
-        src="https://img.shields.io/badge/🎓_Watch_Live-0e75b6?style=for-the-badge"
+        src="https://img.shields.io/badge/WATCH_LIVE-0e75b6?style=for-the-badge"
         alt="Watch Live"
       />
     </a>
   </p>
+
+</div>
+
 
 </div>
 
