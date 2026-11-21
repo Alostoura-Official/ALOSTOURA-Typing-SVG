@@ -143,7 +143,7 @@ GitHub: https://github.com/Alostoura-Official
   <img src="assets/ALOSTOURA-Typing.svg" alt="ALOSTOURA Typing SVG">
 </p>
 ```
-
+<hr>
 
 <div align="center">
 
@@ -165,9 +165,7 @@ GitHub: https://github.com/Alostoura-Official
   </p>
 
 </div>
-
-
-</div>
+<hr>
 
 
 ### ملاحظة الاستضافة
