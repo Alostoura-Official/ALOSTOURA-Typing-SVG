@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d18">
+  <meta name="description" content="Create animated SVG typing banners for GitHub profiles and README files. Free, bilingual, and open source.">
+  <title>ALOSTOURA Typing SVG — Animated SVG Generator</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="ALOSTOURA Typing SVG home">
+      <span class="brand-mark">A</span>
+      <span>ALOSTOURA <b>Typing SVG</b></span>
+    </a>
+    <nav class="header-actions">
+      <a class="nav-link" href="#features" data-i18n="featuresNav">Features</a>
+      <a class="nav-link" href="https://github.com/Alostoura-Official" target="_blank" rel="noopener">GitHub</a>
+      <button class="button button-quiet" id="languageToggle" type="button" aria-label="Switch language">العربية</button>
+      <a class="button button-primary" href="#generator" data-i18n="startCreating">Start creating</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span><span data-i18n="heroEyebrow">OPEN-SOURCE SVG GENERATOR</span></div>
+        <h1 data-i18n="heroTitle">Give your GitHub profile a voice.</h1>
+        <p data-i18n="heroText">Create animated typing SVG banners in seconds. Customize your text, typography, colors, timing, and dimensions — then export clean SVG, Markdown, or HTML.</p>
+        <div class="hero-actions">
+          <a class="button button-primary button-large" href="#generator" data-i18n="createBanner">Create your banner <span aria-hidden="true">→</span></a>
+          <a class="button button-outline button-large" href="#how-it-works" data-i18n="howItWorks">How it works</a>
+        </div>
+        <div class="hero-meta"><span>✓ <span data-i18n="freeForever">Free and open source</span></span><span>✓ <span data-i18n="noBackend">Runs in your browser</span></span><span>✓ <span data-i18n="bilingual">Arabic + English</span></span></div>
+      </div>
+      <div class="hero-preview panel">
+        <div class="window-bar"><span></span><span></span><span></span><small>preview.svg</small></div>
+        <div class="hero-svg-wrap"><img id="heroPreview" alt="Animated typing SVG preview"></div>
+        <div class="preview-caption"><span class="status-dot"></span><span data-i18n="livePreview">LIVE SVG PREVIEW</span><span class="caption-code">440 × 90</span></div>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section class="section generator-section" id="generator">
+      <div class="section-heading">
+        <div><div class="eyebrow" data-i18n="studioEyebrow">THE CREATOR STUDIO</div><h2 data-i18n="generatorTitle">Build your typing SVG</h2></div>
+        <p data-i18n="generatorIntro">Fine-tune every detail and see the result instantly.</p>
+      </div>
+
+      <div class="workspace">
+        <section class="panel controls-panel" aria-label="SVG generator controls">
+          <div class="panel-heading"><h3 data-i18n="content">Content</h3><span class="step-number">01</span></div>
+          <label class="field-label" for="linesInput" data-i18n="linesLabel">Text lines (one phrase per line)</label>
+          <textarea id="linesInput" rows="5" spellcheck="false">ALOSTOURA Official
+Front-end Developer
+Android Application Developer
+Open Source Creator</textarea>
+          <div class="field-hint" data-i18n="linesHint">Each line appears in sequence. Up to 10 lines.</div>
+
+          <div class="two-col">
+            <div><label class="field-label" for="fontFamily" data-i18n="font">Font family</label>
+              <select id="fontFamily"><option value="Cairo">Cairo</option><option value="Arial">Arial</option><option value="Verdana">Verdana</option><option value="monospace">Monospace</option><option value="Georgia">Georgia</option></select></div>
+            <div><label class="field-label" for="fontSize" data-i18n="fontSize">Font size</label>
+              <div class="input-suffix"><input id="fontSize" type="number" min="10" max="72" value="24"><span>px</span></div></div>
+          </div>
+
+          <div class="panel-heading sub-heading"><h3 data-i18n="appearance">Appearance</h3><span class="step-number">02</span></div>
+          <div class="two-col">
+            <div><label class="field-label" for="textColor" data-i18n="textColor">Text color</label><div class="color-control"><input id="textColor" type="color" value="#00D4FF"><code id="textColorValue">#00D4FF</code></div></div>
+            <div><label class="field-label" for="backgroundColor" data-i18n="background">Background</label><div class="color-control"><input id="backgroundColor" type="color" value="#000000"><code id="backgroundColorValue">transparent</code><label class="switch"><input id="transparentBg" type="checkbox" checked><span></span></label></div></div>
+          </div>
+          <div class="two-col">
+            <div><label class="field-label" for="widthInput" data-i18n="width">Width</label><div class="input-suffix"><input id="widthInput" type="number" min="120" max="1600" value="440"><span>px</span></div></div>
+            <div><label class="field-label" for="heightInput" data-i18n="height">Height</label><div class="input-suffix"><input id="heightInput" type="number" min="30" max="500" value="90"><span>px</span></div></div>
+          </div>
+          <div class="panel-heading sub-heading"><h3 data-i18n="animation">Animation</h3><span class="step-number">03</span></div>
+          <div class="two-col">
+            <div><label class="field-label" for="typingSpeed" data-i18n="typingDuration">Typing duration</label><div class="input-suffix"><input id="typingSpeed" type="number" min="500" max="15000" step="250" value="2500"><span>ms</span></div></div>
+            <div><label class="field-label" for="pauseDuration" data-i18n="pauseDuration">Pause between lines</label><div class="input-suffix"><input id="pauseDuration" type="number" min="0" max="10000" step="250" value="900"><span>ms</span></div></div>
+          </div>
+          <div class="two-col">
+            <div><label class="field-label" for="fontWeight" data-i18n="fontWeight">Font weight</label><select id="fontWeight"><option value="400">Regular</option><option value="600">Semi-bold</option><option value="700" selected>Bold</option><option value="800">Extra bold</option></select></div>
+            <div><label class="field-label" for="align" data-i18n="alignment">Alignment</label><select id="align"><option value="middle">Center</option><option value="start">Left</option><option value="end">Right</option></select></div>
+          </div>
+          <div class="button-row">
+            <button class="button button-outline" id="resetButton" type="button" data-i18n="reset">Reset</button>
+            <button class="button button-primary" id="generateButton" type="button" data-i18n="updatePreview">Update preview</button>
+          </div>
+        </section>
+
+        <section class="panel output-panel" aria-label="SVG preview and exports">
+          <div class="output-top"><div><div class="eyebrow" data-i18n="outputEyebrow">YOUR RESULT</div><h3 data-i18n="preview">Preview</h3></div><span class="live-pill"><span class="status-dot"></span><span data-i18n="live">LIVE</span></span></div>
+          <div class="preview-stage" id="previewStage"><img id="mainPreview" alt="Your animated SVG banner preview"></div>
+          <div class="dimensions"><span id="dimensionLabel">440 × 90 px</span><span data-i18n="svgVector">Scalable vector graphic</span></div>
+          <div class="export-tabs" role="tablist" aria-label="Export format">
+            <button class="tab active" data-tab="markdown" role="tab" aria-selected="true" type="button">Markdown</button>
+            <button class="tab" data-tab="html" role="tab" aria-selected="false" type="button">HTML</button>
+            <button class="tab" data-tab="svg" role="tab" aria-selected="false" type="button">SVG</button>
+          </div>
+          <div class="code-wrap"><pre><code id="codeOutput"></code></pre><button class="copy-button" id="copyButton" type="button" data-i18n="copy">Copy</button></div>
+          <div class="export-actions">
+            <button class="button button-primary" id="downloadButton" type="button"><span data-i18n="downloadSvg">Download SVG</span> ↓</button>
+            <button class="button button-outline" id="downloadMarkdownButton" type="button" data-i18n="downloadMarkdown">Download Markdown</button>
+          </div>
+          <p class="small-note" data-i18n="staticHostingNote">GitHub Pages is static hosting. Download the generated SVG and commit it to your repository to use a stable image URL.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading centered"><div><div class="eyebrow" data-i18n="whyEyebrow">MADE FOR BUILDERS</div><h2 data-i18n="featuresTitle">Everything you need. Nothing you don't.</h2></div></div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">✦</div><h3 data-i18n="featureOneTitle">Instant preview</h3><p data-i18n="featureOneText">See your animation update as you customize the settings.</p></article>
+        <article class="feature-card"><div class="feature-icon">⌘</div><h3 data-i18n="featureTwoTitle">Multiple exports</h3><p data-i18n="featureTwoText">Copy Markdown or HTML, or download a standalone SVG file.</p></article>
+        <article class="feature-card"><div class="feature-icon">文</div><h3 data-i18n="featureThreeTitle">Bilingual-ready</h3><p data-i18n="featureThreeText">Switch the interface between Arabic and English. SVG text supports Unicode.</p></article>
+        <article class="feature-card"><div class="feature-icon">◈</div><h3 data-i18n="featureFourTitle">Privacy first</h3><p data-i18n="featureFourText">All generation happens locally in your browser. No account or API key.</p></article>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how-it-works">
+      <div class="section-heading"><div><div class="eyebrow" data-i18n="simpleEyebrow">THREE SIMPLE STEPS</div><h2 data-i18n="howTitle">From idea to README</h2></div></div>
+      <div class="steps-grid">
+        <div class="step-card"><span>01</span><h3 data-i18n="stepOneTitle">Write your lines</h3><p data-i18n="stepOneText">Add the phrases you want to rotate through.</p></div>
+        <div class="step-card"><span>02</span><h3 data-i18n="stepTwoTitle">Customize the look</h3><p data-i18n="stepTwoText">Choose colors, typography, size, and animation timing.</p></div>
+        <div class="step-card"><span>03</span><h3 data-i18n="stepThreeTitle">Export and publish</h3><p data-i18n="stepThreeText">Download the SVG and add it to your GitHub repository.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="brand"><span class="brand-mark">A</span><span>ALOSTOURA <b>Typing SVG</b></span></div><p data-i18n="footerText"></p><a href="https://github.com/Alostoura-Official" target="_blank" rel="noopener">Alostoura-Official on GitHub ↗</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="engine/svg-engine.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
