@@ -20,7 +20,7 @@ Create animated typing SVG banners with a bilingual interface, instant preview, 
 
 After enabling GitHub Pages, open:
 
-`https://YOUR-USERNAME.github.io/ALOSTOURA-Typing-SVG/`
+`https://alostoura-official.github.io/ALOSTOURA-Typing-SVG/`
 
 ## Features
 
