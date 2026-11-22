@@ -2,7 +2,7 @@
   "use strict";
   const $ = (id) => document.getElementById(id);
   const defaults = {
-    lines: "Alostoura Official\nFront-end Developer\nAndroid Application Developer\nOpen Source Creator",
+    lines: "Alostoura Official\nFront-end Developer\nAndroid Application Developer",
     fontFamily: "Cairo", fontSize: 24, fontWeight: "700", color: "#00D4FF",
     background: "#000000", transparent: true, width: 440, height: 90,
     typingDuration: 2500, pauseDuration: 900, align: "middle", effect: "typewriter"
