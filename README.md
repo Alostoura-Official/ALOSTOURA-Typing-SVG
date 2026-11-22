@@ -124,7 +124,9 @@
 │   │   └── 🎨 style.css
 │   │
 │   ├── 📂 icons
-│   │   └── 🖼️ favicon.svg
+│   │   ├── 🖼️ favicon.svg
+│   │   ├── 🖼️ favicon-512.png
+│   │   └── 🖼️ favicon-192.png
 │   │
 │   ├── 📂 js
 │   │   └── ⚙️ app.js
