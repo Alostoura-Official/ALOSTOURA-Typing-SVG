@@ -2,3 +2,30 @@
 
 /* v1.1 studio additions */
 .studio-selects{margin-top:10px}.studio-selects .field-label{margin-top:10px}.studio-selects select{min-height:40px}
+
+/* ALOSTOURA Official Brand Identity */
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+}
+
+.brand-logo {
+  display: block;
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.site-footer .brand-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.brand-mark {
+  display: none;
+}
+
