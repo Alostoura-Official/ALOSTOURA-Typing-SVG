@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="ALOSTOURA Official — Front-end Developer — Android Application Developer" viewBox="0 0 440 90" width="440" height="90">
-<title>ALOSTOURA Typing SVG Demo</title>
-<rect width="100%" height="100%" fill="none"/>
-<path id="line1" d="M 220 45 h 0"><animate attributeName="d" begin="0ms" dur="2500ms" fill="freeze" values="M 220 45 h 0; M 220 45 h 424"/></path>
-<text font-family="Cairo, Arial, sans-serif" font-size="24" font-weight="700" fill="#00D4FF" dominant-baseline="middle" text-anchor="middle" x="220" y="45"><textPath xlink:href="#line1" startOffset="50%">ALOSTOURA Official</textPath></text>
-</svg>
