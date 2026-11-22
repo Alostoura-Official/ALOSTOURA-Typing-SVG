@@ -206,6 +206,7 @@
 
 ---
 
+
 ## 🎥 معاينة المشروع
 
 <div align="center">
@@ -214,8 +215,9 @@
     <img
       src="https://api.microlink.io/?url=https%3A%2F%2Falostoura-official.github.io%2FALOSTOURA-Typing-SVG%2F&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=8000"
       width="600"
-      alt="ALOSTOURA Typing SVG Live Preview"
-    />
+      alt="ALOSTOURA Typing SVG - Live Project Preview"
+      loading="lazy"
+    >
   </a>
 
   <p>
@@ -223,10 +225,11 @@
       <img
         src="https://img.shields.io/badge/WATCH_LIVE-0e75b6?style=for-the-badge"
         alt="Watch Live"
-      />
+      >
     </a>
   </p>
-</p>
+  </p>
+
 
 **ALOSTOURA Typing SVG**
 
