@@ -206,16 +206,15 @@
 
 ---
 
-
 ## 🎥 معاينة المشروع
 
 <div align="center">
 
   <a href="https://alostoura-official.github.io/ALOSTOURA-Typing-SVG/" target="_blank" rel="noopener noreferrer">
     <img
-      src="https://api.microlink.io/?url=https%3A%2F%2Falostoura-official.github.io%2FALOSTOURA-Typing-SVG%2F&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=8000"
+      src="https://api.microlink.io/?url=https%3A%2F%2Falostoura-official.github.io%2FALOSTOURA-Typing-SVG%2F&screenshot=true&meta=false&embed=screenshot.url&waitForTimeout=8000&force=true&v=2"
       width="600"
-      alt="ALOSTOURA Typing SVG - Live Project Preview"
+      alt="ALOSTOURA Typing SVG - Updated Live Preview"
       loading="lazy"
     >
   </a>
