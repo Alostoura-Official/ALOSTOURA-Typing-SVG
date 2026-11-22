@@ -114,6 +114,7 @@
 لا يحتاج المشروع إلى أوامر بناء أو تثبيت حزم إضافية.
 
 ## 🗂️ هيكل المشروع
+<div dir="ltr" align="left">
 
 ```text
 📂 ALOSTOURA-Typing-SVG
@@ -149,6 +150,7 @@
 ├── 📖 README.md
 └── 📖 SECURITY.md
 ```
+</div>
 
 ## ⚙️ آلية عمل المشروع
 
