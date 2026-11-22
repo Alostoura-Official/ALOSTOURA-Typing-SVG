@@ -39,10 +39,25 @@
 - 🔑 لا يحتاج إلى حساب مستخدم أو مفتاح API
 - 📱 متوافق مع الهواتف والأجهزة اللوحية وأجهزة الكمبيوتر
 - 🧩 لا يعتمد على مكتبات JavaScript خارجية
+<p align="center">
+  <a href="https://alostoura-official.github.io/ALOSTOURA-Typing-SVG">
+  <img src="/assets/svg/separator.svg" alt="Divider" width="100%" />
+</p>
+<p align="center">
+  <a href="https://alostoura-official.github.io/ALOSTOURA-Typing-SVG">
+    <img src="/assets/svg/Alostoura-Official-Sky-Blue.svg/?lines=Alostoura-Official;Front-end+;Android+Application;Developer&font=Cairo&weight=700&center=true&width=440&height=45&color=FF0000&vCenter=true&size=22" alt="Typing SVG - Alostoura Official">
+  </a>
+</p>
+   
+<div dir="rtl" align="right">
 
 ## 🎬 التأثيرات الحركية
 
 يوفر المشروع مجموعة متنوعة من التأثيرات لإضفاء الحيوية على النصوص:
+
+</div>
+
+<div align="center">
 
 | التأثير | الوصف |
 |---|---|
@@ -57,7 +72,8 @@
 | Flip | القلب |
 | Elastic | الحركة المرنة |
 | Pulse | النبض |
-
+</div>
+<div dir="rtl" align="right">
 ## 🚀 البدء في الاستخدام
 
 1. قم بتنزيل المشروع أو استنساخ المستودع.
