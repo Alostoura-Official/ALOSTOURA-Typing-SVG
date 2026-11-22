@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "presets": [
+    {
+      "name": "ALOSTOURA Cyan",
+      "color": "#00D4FF",
+      "background": "#000000",
+      "transparent": true,
+      "fontFamily": "Cairo",
+      "fontSize": 24,
+      "fontWeight": "700",
+      "width": 440,
+      "height": 90,
+      "effect": "typewriter"
+    },
+    {
+      "name": "GitHub Green",
+      "color": "#39D353",
+      "background": "#000000",
+      "transparent": true,
+      "fontFamily": "Arial",
+      "fontSize": 22,
+      "fontWeight": "700",
+      "width": 440,
+      "height": 80,
+      "effect": "fade"
+    },
+    {
+      "name": "Violet Pulse",
+      "color": "#A78BFA",
+      "background": "#0B1020",
+      "transparent": false,
+      "fontFamily": "Verdana",
+      "fontSize": 22,
+      "fontWeight": "700",
+      "width": 500,
+      "height": 90,
+      "effect": "pulse"
+    },
+    {
+      "name": "Minimal White",
+      "color": "#F4F7FB",
+      "background": "#000000",
+      "transparent": true,
+      "fontFamily": "Arial",
+      "fontSize": 22,
+      "fontWeight": "700",
+      "width": 440,
+      "height": 80,
+      "effect": "slide-left"
+    },
+    {
+      "name": "Sunset Orange",
+      "color": "#FF9B54",
+      "background": "#17101B",
+      "transparent": false,
+      "fontFamily": "Arial",
+      "fontSize": 25,
+      "fontWeight": "700",
+      "width": 520,
+      "height": 100,
+      "effect": "glow"
+    },
+    {
+      "name": "Royal Gold",
+      "color": "#FFD166",
+      "background": "#101010",
+      "transparent": false,
+      "fontFamily": "Georgia",
+      "fontSize": 25,
+      "fontWeight": "700",
+      "width": 500,
+      "height": 90,
+      "effect": "zoom"
+    },
+    {
+      "name": "Electric Blue",
+      "color": "#4EA1FF",
+      "background": "#071426",
+      "transparent": false,
+      "fontFamily": "Verdana",
+      "fontSize": 24,
+      "fontWeight": "700",
+      "width": 520,
+      "height": 90,
+      "effect": "slide-up"
+    },
+    {
+      "name": "Rose Neon",
+      "color": "#FF6B9A",
+      "background": "#160B18",
+      "transparent": false,
+      "fontFamily": "Cairo",
+      "fontSize": 24,
+      "fontWeight": "700",
+      "width": 500,
+      "height": 90,
+      "effect": "blur"
+    },
+    {
+      "name": "Terminal Matrix",
+      "color": "#39FF88",
+      "background": "#020B05",
+      "transparent": false,
+      "fontFamily": "monospace",
+      "fontSize": 22,
+      "fontWeight": "700",
+      "width": 480,
+      "height": 85,
+      "effect": "typewriter"
+    },
+    {
+      "name": "Arctic Silver",
+      "color": "#DCEBFA",
+      "background": "#101923",
+      "transparent": false,
+      "fontFamily": "Arial",
+      "fontSize": 23,
+      "fontWeight": "700",
+      "width": 500,
+      "height": 90,
+      "effect": "flip"
+    },
+    {
+      "name": "Crimson Impact",
+      "color": "#FF4D5A",
+      "background": "#18090D",
+      "transparent": false,
+      "fontFamily": "Arial",
+      "fontSize": 26,
+      "fontWeight": "700",
+      "width": 520,
+      "height": 100,
+      "effect": "bounce"
+    },
+    {
+      "name": "Ocean Teal",
+      "color": "#35E0C1",
+      "background": "#071B20",
+      "transparent": false,
+      "fontFamily": "Cairo",
+      "fontSize": 24,
+      "fontWeight": "700",
+      "width": 500,
+      "height": 90,
+      "effect": "elastic"
+    }
+  ]
+}
